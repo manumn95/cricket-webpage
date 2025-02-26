@@ -1,0 +1,139 @@
+body{
+  color: white;
+  text-align: center;
+  background-color: rgb(0,0,0,0.3);
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  box-shadow: 2px 2px 2px black;
+  width:100%;
+  background-color: rgb(34, 4, 110);
+  color: white;
+  z-index: 10;
+}
+.sticky-image{
+  position: sticky;
+  width: 100%;
+  left: 0px;
+}
+.sticky-image img{
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+.heading{
+  position: fixed;
+  left:40%;
+  top: 100px;
+  text-align: center;
+  
+}
+.coaches{
+  position: absolute;
+  top:250px;
+  left:15%;
+
+}
+.coach1, .coach2, .coach3{
+  border: 10px solid white;
+  border-radius: 10px;
+  margin: 0px 30px ;
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  height:25vh;
+  background-color: white;
+  box-shadow: 2px 2px 2px black;
+
+}
+.coaches img{
+  width: 100%;
+  height:25vh;
+  object-fit: cover;
+}
+.coaches p{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left:30%;
+}
+.players{
+  border: 10px solid white;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top:550px;
+  left:24%;
+  width:52%;
+  box-shadow: 2px 2px 2px black;
+}
+.players h2{
+color:rgb(34, 4, 110);
+font-weight: bold;
+}
+dl{
+  margin:0px;
+  padding: 0px;
+  overflow-y: scroll;
+  width: 100%;
+  max-height: 50vh;
+}
+dt figure{
+  border-radius: 10px;
+  width: 90%;
+  height: 40%;
+  object-fit: cover;
+
+}
+figure img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ranking{
+  position: absolute;
+  top: 1100px;
+  left:15%;
+  width: 70%;
+  box-shadow: 2px 2px 2px black;
+
+}
+
+table{
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+}
+thead{
+  background-color: rgb(34, 4, 110);
+  color:white;
+  height: 40px;
+}
+tbody{
+  background-color: white;
+  color: rgb(34, 4, 110);
+}
+td, th{
+  padding-left: 40px;
+  height: 40px;
+  box-shadow: 0.1px 0.1px 1px rgb(0,0,0,0.5);
+}
+
+footer{
+  position: absolute;
+  top: 1350px;
+  left:0;
+  background-color: rgb(34, 4, 110);
+  width: 100%;
+  text-align: center;
+}
