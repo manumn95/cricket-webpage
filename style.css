@@ -24,6 +24,7 @@ header{
   top: 80px;
   left: 0;
   width: 100%;
+ filter: brightness(55%);
   z-index: -1;
 }
 .heading{
